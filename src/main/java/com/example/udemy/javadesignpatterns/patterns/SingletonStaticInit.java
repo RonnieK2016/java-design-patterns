@@ -2,7 +2,7 @@ package com.example.udemy.javadesignpatterns.patterns;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class SingletonStaticInit {
+public class SingletonStaticInit implements Singleton {
 
     static class SingletonInstanceHolder {
         private static final SingletonStaticInit INSTANCE = new SingletonStaticInit();

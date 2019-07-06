@@ -15,7 +15,7 @@ public class BuilderPatternTest {
 
         BuilderPattern builderPattern = BuilderPattern.builder().id(id).firstName(firstName)
                 .lastName(lastName).address(address).build();
-        
+
         assertEquals(id, builderPattern.getId());
         assertEquals(firstName, builderPattern.getFirstName());
         assertEquals(lastName, builderPattern.getLastName());

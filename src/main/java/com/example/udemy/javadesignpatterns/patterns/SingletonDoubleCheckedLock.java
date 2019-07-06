@@ -2,7 +2,7 @@ package com.example.udemy.javadesignpatterns.patterns;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class SingletonDoubleCheckedLock {
+public class SingletonDoubleCheckedLock implements Singleton {
 
     private AtomicInteger counter = new AtomicInteger();
 
