@@ -24,7 +24,7 @@ public class CarMake implements Vehicle {
 
     @Override
     public CarColor getColor() {
-        return null;
+        return color;
     }
 
     @Override
