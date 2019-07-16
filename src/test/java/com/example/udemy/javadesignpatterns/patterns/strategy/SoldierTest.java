@@ -18,7 +18,7 @@ public class SoldierTest {
         assertEquals("Self repairable unit!", ironMan.repair());
 
         Soldier human = new Soldier(new Unrepairable());
-        
+
         assertEquals("Not a repairable unit!", human.repair());
     }
 
