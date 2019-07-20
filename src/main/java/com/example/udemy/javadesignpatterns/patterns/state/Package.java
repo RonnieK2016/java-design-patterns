@@ -19,7 +19,7 @@ public class Package {
     public void prevState() {
         state.prev(this);
     }
-    
+
 
     public void setState(PackageState state) {
         this.state = state;
